@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Order a Melongram!</title>    
+            <title>Order a Melongram</title>
     </head>
-
+    
     <body>
+        <!--  this is a comment  -->
         <h1>Order a Melongram</h1>
-    </body>
+        <p>
+            There's no better way to show a loved one you care than with a Melongram.
+        </p>
 
-    <p>
-        There's no better way to show a loved one you care than with a Melongram.
-    </p>
+        <p>
+            Each Melongram comes with a custom message printed on high-quality cardstock
+            and your choice of a hand-picked, premium melon.
+        </p>
 
-    <p>
-        Each Melongram comes with a custom message printed on high-quality cardstock and your choice of a hand-picked, premium melon.
-    </p>
+        <h2>Melon Options</h2>
 
-    <h2>Melon Options</h2>
+        <p>
+            Choose from one of these melons:
+        </p>
 
-    <p> 
-        Choose from one of these melons:
-    </p>
-
-    <table>
-        <tr>
-            <td>Watermelon</td>
-            <td>$1,200.00</td>
-        </tr>
-        <tr>    
-            <td>Canteloupe</td>
-            <td>$400.00</td>
-        </tr>
-        <tr>    
-            <td>Honeydew</td>
+        <table>
+            <tr>
+                <td>Watermelon </td>
+                <td>$1,200.00</td>
+            </tr>
+            <tr>
+                <td>Canteloupe </td>
+                <td>$400.00</td>
+            <tr>
+            <td>Honeydew </td>
             <td>$1,750,00.00</td>
-        </tr>
-    </table>
+            </tr>
+        </table>
 
-    <h2>Order Form</h2>
-
-    <form>
-        <label>Your name</label>
-        <input type = "text name="Your name>
-
-    </form>
-
-    <form>
-        <label>Who are we sending this to?</label>
-        <input type = "text name="Who are we sending this to?>
-    </form>
-
-    <form>
-        Choose a melon
-        <select name="melon">
-            <option value="watermelon">Watermelon</option>
-            <option value="canteloupe">Canteloupe</option>
-            <option value="honeydew">Honeydew</option>
-        </select>
-    </form>
-
-
-
-When should we deliver?
-Morning
-Evening
-Any time
-
-Enter your message:
-
-Subscribe to our newsletter
-Yes
-</body>
+        <h2>Order Form</h2>
+        
+        <form>
+            <label>Your name</label>
+            <input type="text" name="name">
+        </form>
+        <form>
+            <label>Who are we sending this to?</label>
+            <input type="text" name="recipient">
+        </form>
+        <form>
+            <label>Choose a melon</label>
+            <select name="melon">
+                <option value="watermelon">Watermelon</option>
+                <option value="canteloupe">Canteloupe</option>
+                <option value="honeydew">Honeydew</option>
+            </select>
+        </form>
+        <form>
+            <input type="radio" value="am">
+            <label>Morning</label>
+            <input type="radio" value="pm">
+            <label>Evening</label>
+            <input type="radio" value="any">
+            <label>Any time</label>
+        </form>
+        <form>
+            <label>Enter your message:</label>
+            <textarea name="message"></textarea>
+        </form>
+        <form>
+            <label>Subscribe to our newsletter</label>
+            <input type="checkbox" name="subscribe" value="yes">
+            <label>Yes</label>
+        </form>
+        <form>
+            <input type="submit">
+        </form>
+    </body>
 </html>
